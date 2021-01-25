@@ -1,0 +1,5 @@
+root:root
+myserver:myserver
+admin:admin
+vlad:thisisi
+user:user

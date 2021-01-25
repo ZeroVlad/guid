@@ -1,0 +1,21 @@
+ 1. Створення архіву a
+# 7z a hyper.7z hyper_1.4.2_i386.deb
+
+ 2. Відкриття архіву e
+# 7z e hyper.7z
+
+ 3. Вибрати формат архіву -t
+# 7z a -tzip hyper.zip hyper_1.4.2_i386.deb
+
+ 4. Перегляд файлів в архіві l
+# 7z l hyper.7z
+
+ 5. Перевірити цілісність t
+# 7z t hyper.7z
+
+ 6. Оновити існуючий файл або видалити файл із архіву u d
+# 7z u <archive-filename> <list-of-files-to-update>
+# 7z d <archive-filename> <list-of-files-to-delete>
+
+ 7. Встановити пароль для архіву -p
+# 7za a -p{password_here} sedicomm_secrets.tar.7z

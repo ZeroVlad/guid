@@ -1,0 +1,163 @@
+﻿Частина 1 - expert install
+1. Вибір мови
+Там де вибір континенту потрібно вибирати Європа - Україна, щоб не було проблем з часовою зоною
+2. Вибір розкладок клавіатури 
+Вибираємо UTF-8 і загальні. Потім вибираємо клавіатуру і клавіші зміни розкладки якщо вибрали не латинь
+3. Пошук і монтування CD
+Вибираємо носитель і встановлюємо систему, ніяких компонентів з запропонованих не вибираємо
+4. Налаштовуємо мережу
+Якщо віртуальна машина то просто нажимаємо далі. Якщо реальна, то можливо потрібні будуть додаткові настройки
+Ім’я хоста - це ім’я комп’ютера. Якщо в вас немає домену то так і залишаємо путим відповідне поле
+5. Створення і налаштування користувачі
+Вводимо пароль рут, ім’я користувача, пароль користувача
+6. Налаштування часу:
+NPT залишаємо, часовий пояс поки що вибираємо UTC, якщо вашого нема в списку, потім налаштуємо
+7. Розбивання дисків
+Efi - 512M
+Root - 30-100G
+Home - Решту
+SWAP - Розмір ОЗУ
+
+Частина 2 - команди apt
+* list - список пакетів;
+* search - пошук пакетів по імені;
+* show - показати детальну інформацію про пакет;
+* update - оновити списки доступних пакетів;
+* install - встановити пакет;
+* remove - видалити пакет;
+* autoremove - видалити автоматично всі пакунки, що не використовуються
+* upgrade - встановити доступні нові версії пакетів;
+* full-upgrade - повне оновлення системи;
+* edit-sources - редагувати файл джерел програмного забезпечення.
+* швидке оновлення системи: sudo apt update && sudo apt full-upgrade
+
+Частина 3 - налаштування судо
+встановити утиліту sudo: apt instal sudo
+перейти в певну директорію: su - root - Это фича https://wiki.debian.org/NewInBuster
+добавити користувача в групу судо: adduser vlad sudo
+Також є visudo (перед тим потрібно перейти в su -l, детальніше - https://debianforum.ru/index.php?topic=5571.0)
+Перевірити наявність користувача в групі судо: getent group sudo
+
+Частина 4 - встановлення графічного середовища
+Приклад встановлення KDE:
+su (заходимо в рут)
+apt install kde-plasma-desktop
+
+Частина 5 - підключення репозиторіїв
+https://debgen.simplylinux.ch/index.php?generate
+підключаємо також debian backports
+
+Частина 6 - встановлення програм і пакетів
+Список: 
+Програми і пакети
+Особливе для debian:
+apt-transport-https - скачування по протоколу https
+Якщо є проблеми з usb-модемами, ставимо пакет usb-modeswitch
+Не свобідні кодаки: w64codecs
+
+Пакети і утиліти: 
+# sudo apt install apt-transport-https git htop inix nodejs npm screenfetch
+Мінімум: 
+# sudo apt install audacious chromium evince flameshot furiusisomount gedit gparted klipper kolourpaint nano nomacs p7zip-rar p7zip-full pavucontrol pulseaudio transmission vlc 
+
+# sudo apt install dolphin dolphin-plugins ffmpegthumbs filelight grantlee-editor kbruch kcalc kcharselect kdeconnect kdegraphics-mobipocket kdegraphics-thumbnailers kdenetwork-filesharing kdesdk-thumbnailers kdf kdialog kfind kmousetool kolourpaint konsole korganizer kross-interpreters print-manager yakuake
+Корисне:
+# sudo apt install sublime-text fbreader gimp keepass2 libreoffice telegram-desktop torbrowser-launcher uget virtualbox-6.1
+
+Частина 7 - налаштувати графічне середовище
+xfce: https://www.youtube.com/playlist?list=PLTbLTCo6cpY_AMcgP7cbaaA6ENzJ4uja5
+kde: https://losst.ru/nastrojka-kde-plasma-5
+
+* Загальні налаштування системи
+* Налаштування панелі
+* Налаштування провідника
+* Налаштування термінала
+* Тема та іконки
+
+Скорочення клавіш:
+Перемкнути дисплей: Meta + P
+
+Додатки:
+Відкрити меню програм: Win
+Запустити файловий менеджер: Win + E
+Запустити термінал: Win + T
+Запустити браузер: Win + C
+Запустити медіаплеєр: Win + A
+Запустити htop: Win + H
+Показати системні процеси: Win+Tab
+Пошук в інтернеті: Alt+f8
+Print - Створити знімок активного екрану
+Win + Print - Створити знімок активного вікна
+Shift + Print - Створити знімок всіх екранів
+Win + Shift + Print - Створити знімок виділеної області екрану
+
+Вікна та робочі столи:
+Закрити вікно: alt+f4
+Змінити розмір вікна: alt+f5
+Мінімалізувати вікно: alt+f6
+Меню дій над вікнами: alt+f3
+Вікно на весь екран: alt+f1
+Увімкнути показ вікон: alt+f2
+Пройтись по вікнам: alt+tab
+Закріпити вікно: alt+f7
+
+
+Робочий стіл 1: ctrl+1
+Робочий стіл 2: ctrl+2
+Робочий стіл 3: ctrl+3
+Показати робочі столи: ctrl+f1
+Показати робочий стіл: win+d
+
+Вихід:
+Заблокувати сеанс: ctrl+alt+L
+Завершити сеанс: ctrl+alt+esc
+
+Стандартні клавіатурні скорочення:
+Активувати наступну вкладку: Ctrl+PgDown
+Активувати попередню вкладку: Ctrl+PgUp
+Вернути: Ctrl+Z
+Вибрати все: Ctrl+A
+Вийти: Ctrl+Q
+Вилучити: Shift+Del
+Вилучити слово позаду: Ctrl+Backspace
+Вилучити слово попереду: Ctrl+Del
+Вирізати: Ctrl+X
+Відкрити: Ctrl+O
+Вперед: Alt+right
+Вставити: Ctrl+V
+Вставити виділене: Ctrl+Alt+V
+Домівка: Alt+Home
+Друкувати: Ctrl+P
+Завершення підрядка: Ctrl+T
+Завершення тексту: Ctrl+E
+Закрити: Ctrl+Esc
+Замінити: Ctrl+R
+Зберегти: Ctrl+S
+Зберегти як: Ctrl+Shift+S
+Збільшити: Ctrl+=
+Зменшити: Ctrl+-
+Кінець рядка: End
+Копіювати: Ctrl+C
+Нагору: Alt+Up
+Назад: Alt+Left
+Налаштувати системні параметри: Ctrl+Return
+Наступна: PgDown
+Наступний варіант у списку: Down
+Остання: Ctrl+End
+Очистити: Shift+Backspace
+Перейменувати: F2
+Перейти до рядка...: Ctrl+G
+Перемістити до корзини: Del
+Перша: Ctrl+Home
+Повторити: Ctrl+Shift+Z
+Показати смужку меню: Ctrl+M
+Попередній варіант у списку: Up
+Попередня: PgUp
+Початок рядка: Home
+Пошук: Ctrl+F
+Скасувати вибір: Ctrl+Shift+A
+Слово вперед: Ctrl+Right
+Слово назад: Ctrl+Left
+Створити: Ctrl+N
+Фактичний розмір: Ctrl+0
+Що це: Shift+F1

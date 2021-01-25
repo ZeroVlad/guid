@@ -1,0 +1,116 @@
+﻿Програми і пакети
+Список пакетів і утиліт:
+curl git htop screenfetch
+
+Список програм:
+
+Мінімум:
+audacious - аудіоплеєр +
+chromium - браузер для повсякденного користування. Хром без лишнього +
+evince - перегляд PDF файлів +
+fio - вимірювання швидкості накопичувача 
+furiusisomount - програма для монтування файлів образів дисків +
+gedit - текстовий редактор +
+gparted - редактор дискових розділів +
+klipper - буфер обміну від kde +
+kolourpaint - графічний редактор по типу peint.net +
+nano - консольний текстовий редактор +
+nomacs - перегляд зображень +
+p7zip-full - архіватор +
+pavucontrol - контролер для pulseaudio +
+pulseaudio - звук в системі +
+transmission - для скачування торентів +
+vlc - медіа-плеєр +
+
+audacious chromium evince fio furiusisomount gedit gparted klipper kolourpaint nano nomacs p7zip-full pavucontrol pulseaudio transmission vlc
+
+dolphin dolphin-plugins ffmpegthumbs filelight grantlee-editor kbruch kcalc kcharselect kdeconnect kdegraphics-mobipocket kdegraphics-thumbnailers kdenetwork-filesharing kdesdk-thumbnailers kdialog kfind kio kio-gdrive kolourpaint konsole korganizer kross-interpreters print-manager yakuake
+
+Корисне:
+sublime-text - текстовый редактор для коду +
+fbreader - читання електронних книг в різних форматах +
+gimp - фотошоп з відкритим кодом
+keepass2 - програма для зберігання паролів +
+libreoffice - офіс від gnu/linux +
+telegram-desktop - месенджер +
+thunderbird - поштовий клієнт +
+torbrowser-launcher - браузер з так званою, цибулиною маршутизацією +
+uget - менеджер загрузок +
+virtualbox - віртуальна машина +
+
+sublime-text fbreader gimp keepass2 libreoffice telegram-desktop thunderbird torbrowser-launcher uget virtualbox
+
+kaddressbook - позволяє зберігати всі дані про знайомих(контакти)
+kompare - можна переглядати різницю між текстами файлів та об’єднувати тексти файлів
+kwave - звуковий редактор
+kaddressbook kompare kwave
+
+Навчання:
+freemat 
+
+Додатково:
+audacity - редагування аудіо файлів
+bleachbit - очищення свобідного місця
+firefox - браузер з ВПНом і покращеною конфіденційністю
+kdenlive - редактор відео
+mediainfo mediainfo-gui - для отримання інформації про формати аудіо, відео і зображень
+puddletag - редактор метаданих для аудіофайлів
+simplescreenrecorder - записати відео з екрану
+soundconverter - програма для конвертації аудіо файлів
+tribler-bittorrent - дозволяю скачувати торенти з захистом Tor
+
+
+Інші:
+No-BlackM - пошук по номеру телефону
+ZeroNet
+
+KDE-app
+Основне:
+dolphin
+dolphin-plugins
+ffmpegthumbs
+filelight
+grantlee-editor
+kbruch
+kcalc
+kcharselect
+kdeconnect
+kdegraphics-mobipocket
+kdegraphics-thumbnailers
+kdenetwork-filesharing
+kdesdk-thumbnailers
+kdialog
+kfind
+kmousetool
+kolourpaint
+konsole
+korganizer
+kross-interpreters
+print-manager
+
+Корисне:
+kaddressbook - позволяє зберігати всі дані про знайомих(контакти)
+kompare - можна переглядати різницю між текстами файлів та об’єднувати тексти файлів
+kwave - звуковий редактор
+
+Додатково
+kgeography -вивчання географії
+kgpg - програма для шифрування і керування ключами
+kig - вивчення геометрії
+kimagemapeditor - редактор карт зображень для HTML
+kleopatra - графічний інтерфейс засобів керування сертифікатами та шифруванням
+kmag - збільшення зображення частини екрана
+kmouth - перетворює текст в звук
+kmplot - програма для попудови графіків математичних функцій
+krdc - тімвівер від кде
+krfb - серверна програма для спільного використання стільниці
+ksirk - комп’ютеризована версія стратегічної гри Risk
+ksystemlog - програма для перегляду системних журналів
+ktimer - запуск команд по таймеру
+ktouch - програма для вивчення швидкого набирання тексту
+lokalize - інструмент для локалізації програмного забезпечення
+marble - віртуальний глобус для демонстації поверхності землі, марса та ін.
+step - імітатор фізичних процечів
+sweeper - допомагає позбутися небажаних слідів роботи користувача у системі
+yakuake - термінал в стилі кіберпанка
+umbrello - програма для побудови UML діаграм

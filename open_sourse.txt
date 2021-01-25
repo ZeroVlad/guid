@@ -1,0 +1,10 @@
+аналог github
+NotABug: https://notabug.org/
+NotABug внутри TOR: http://www.qs3zumwfci4tntnd.onion/
+
+One-Time Secret: https://onetimesecret.com/
+
+PrivateBin: https://privatebin.info/
+PrivateBin публичные сервера: https://privatebin.info/directory/
+
+Cryptee: https://crypt.ee/
